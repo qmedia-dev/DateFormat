@@ -25,11 +25,17 @@
  * @author          igor <igor@qmedia.by>
  * @reportissues    https://github.com/qmedia-dev/dateFormat
 
- * @documentation Необходим при выводе даты из TV-параметров админки [type="date"]
- * @documentation 
- * @documentation [[dateFormat? &date=`[*tv_param*]` &format=`%d.%m.%Y`]]
- * @documentation Список паттернов форматирования: https://www.php.net/strftime
+ * @documentation Необходим при выводе даты из TV-параметров типа date
+ * @documentation
+ * @documentation Список паттернов форматирования:
+ * @documentation https://www.php.net/strftime
 
  */
 
+/* Usage -------------------------------
+[[dateFormat?
+&date=`[*tv_param*]`
+&format=`%d.%m.%Y`
+]]
+---------------------------------------- */
 return require MODX_BASE_PATH . 'assets/snippets/dateFormat/snippet.dateFormat.php';
