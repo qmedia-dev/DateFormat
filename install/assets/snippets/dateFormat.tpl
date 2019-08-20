@@ -1,13 +1,13 @@
 <?php
 /**
- * dateFormat
+ * DateFormat
  *
  * Приводит указанную дату к определённому формату
  *
  * @category        snippet
  * @version         1.0.0
  * @author          igor <igor@qmedia.by>
- * @reportissues    https://github.com/qmedia-dev/dateFormat
+ * @reportissues    https://github.com/qmedia-dev/DateFormat
 
  * @internal    @properties
  * @internal    @modx_category Qmedia
@@ -16,14 +16,14 @@
  */
  
 /**
- * dateFormat
+ * DateFormat
  *
  * Приводит указанную дату к определённому формату
  *
  * @category        snippet
  * @version         1.0.0
  * @author          igor <igor@qmedia.by>
- * @reportissues    https://github.com/qmedia-dev/dateFormat
+ * @reportissues    https://github.com/qmedia-dev/DateFormat
 
  * @documentation Необходим при выводе даты из TV-параметров типа date
  * @documentation Список паттернов форматирования:
@@ -32,9 +32,9 @@
  */
 
 /* Usage -------------------------------
-[[dateFormat?
-&date=`[*tv_param*]`
+[[DateFormat?
+&date=`[*publishedon*]`
 &format=`%d.%m.%Y`
 ]]
 ---------------------------------------- */
-return require MODX_BASE_PATH . 'assets/snippets/dateFormat/snippet.dateFormat.php';
+return require MODX_BASE_PATH . 'assets/snippets/DateFormat/snippet.DateFormat.php';

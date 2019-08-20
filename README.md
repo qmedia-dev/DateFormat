@@ -1,4 +1,4 @@
-# dateFormat
+# DateFormat
 
 _Сниппет для Evolution CMS_
 
@@ -6,7 +6,7 @@ _Сниппет для Evolution CMS_
 Необходим при выводе даты из TV-параметров админки [type='date']
 
 ```
-[[dateFormat? &date=`[*tv_param*]` &format=`%d.%m.%Y`]]
+[[DateFormat? &date=`[*tv_param*]` &format=`%d.%m.%Y`]]
 ```
 
 Список паттернов форматирования: <https://www.php.net/strftime>
