@@ -11,7 +11,7 @@
 
  * @internal    @properties
  * @internal    @modx_category Qmedia
- * @internal    @installset base, simple
+ * @internal    @installset base, sample
  
  */
  
@@ -26,7 +26,6 @@
  * @reportissues    https://github.com/qmedia-dev/dateFormat
 
  * @documentation Необходим при выводе даты из TV-параметров типа date
- * @documentation
  * @documentation Список паттернов форматирования:
  * @documentation https://www.php.net/strftime
 
