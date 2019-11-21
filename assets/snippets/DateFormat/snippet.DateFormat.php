@@ -17,6 +17,10 @@ if (!is_numeric($date)) {
 }
 
 // форматируем дату
-$time = strftime($format, $date);
+if ($format == 'ISO 8601') {
+    $time = date('c', $date);
+    return $time;
+}
 
+$time = strftime($format, $date);
 return $time;
